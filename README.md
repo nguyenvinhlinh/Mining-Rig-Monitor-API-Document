@@ -2,7 +2,7 @@
 First of all, Thank for [Redocly/openapi-starter](https://github.com/Redocly/openapi-starter) template!
 
 
-### Install
+## Install
 This source code use [asdf - version manager](https://asdf-vm.com/). Check out the [.tool-versions](./.tool-versions).
 ```
 $ asdf install nodejs 22.4.1
@@ -10,16 +10,22 @@ $ asdf reshim
 $ npm install
 ```
 
-### Usage
+## Usage
 
-#### `npm start`
+### `npm start`
 Starts the reference docs preview server.
 
-#### `npm run build`
+### `npm run build`
 Bundles the definition to the dist folder `bundle.yaml`.
 
-#### `npm run build-html`
+### `npm run build-html`
 Build html files to serve with nginx.
 
-#### `npm test`
+### `npm test`
 Validates the definition.
+
+
+## Build with docker and get files for nginx.
+```
+$ DOCKER_BUILDKIT=1 docker build -f  Dockerfile --target=release --output nginx-dist .
+```
