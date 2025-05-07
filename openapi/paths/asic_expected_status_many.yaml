@@ -1,0 +1,30 @@
+post:
+  tags:
+    - ASIC Miner
+  summary: Get expected status from many ASIC Miner.
+  description: >-
+    This endpoint helps fetch ASIC Miner expected status such as:
+      - asic miner on/off
+      - light bulb on/off
+
+    No `API_CODE` required in HTTP header.
+  operationId: get-asic-expected-status-many
+  responses:
+    '200':
+      description: OK
+      content:
+        application/json:
+          schema:
+            $ref: ../components/schemas/ASIC_EXPECTED_STATUS_MANY.yaml
+  requestBody:
+    content:
+      application/json:
+        schema:
+          type: object
+          properties:
+            asic_api_code_list:
+              type: array
+              items:
+                type: string
+              example: ['873337a5b4a56821a342c744f32acf1e', '9d42acfdaa46208839effa7ba032bdc3']
+    required: true

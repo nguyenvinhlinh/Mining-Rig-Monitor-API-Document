@@ -37,6 +37,12 @@ paths:
   '/asic_miners/logs':
     $ref: 'paths/asic_monitor_data.yaml'
 
+  '/asic_miners/expected_status':
+    $ref: 'paths/asic_expected_status.yaml'
+
+  '/asic_miners/expected_status_many':
+    $ref: 'paths/asic_expected_status_many.yaml'
+
   '/cpu_gpu_miners/specs':
     $ref: 'paths/cpu_gpu_miner_specs.yaml'
 

@@ -1,0 +1,5 @@
+type: object
+properties:
+  key_name_dynamic_api_code:
+    description: key_name is dynamic, it's API_CODE
+    $ref: ./ASIC_EXPECTED_STAUS.yaml
