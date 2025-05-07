@@ -1,7 +1,7 @@
 openapi: 3.1.0
 info:
   version: 2.0.0
-  title: Mining Rig Monitor
+  title: Mining Rig Monitor / Commander
 
   contact:
     name: Contact our support
@@ -9,8 +9,8 @@ info:
   license:
     name: GNU GENERAL PUBLIC LICENSE Version 3
   x-logo:
-    url: 'https://redocly.github.io/openapi-template/logo.png'
-    altText: OpenAPI example logo
+    url: 'https://raw.githubusercontent.com/nguyenvinhlinh/Mining-Rig-Monitor-API-Document/refs/heads/main/images/logo.png'
+    altText: Commander
   description: >
     This is an API for Mining Rig Monitor Software.
 
