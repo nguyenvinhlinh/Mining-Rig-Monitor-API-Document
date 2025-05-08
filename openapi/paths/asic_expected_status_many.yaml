@@ -1,7 +1,8 @@
 post:
   tags:
     - ASIC Miner
-  summary: Get expected status from many ASIC Miner.
+    - ASIC Sentry
+  summary: Get expected status from many ASIC Miner. This API is used by ASIC Sentry.
   description: >-
     This endpoint helps fetch ASIC Miner expected status such as:
       - asic miner on/off
